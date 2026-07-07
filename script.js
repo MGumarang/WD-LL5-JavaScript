@@ -6,12 +6,22 @@
 // ── Challenge 1: Event Information ──────────────────────────
 // Create your variables here and log each one to the console.
 
-// let eventName = "CodeFest";
-// let speakerName = "";
-// let roomNumber = 204;
-// let attendeeName = "";
+let eventName = "Tech Summit";
+let speakerName = "Dr. Lee";
+let roomNumber = 204;
+let attendeeName = "Jordan";
+let attendeeCount = 0;
 
-// console.log(eventName);
+attendeeCount ++;
+console.log(attendeeCount);
+
+console.log(eventName);
+console.log(speakerName);
+console.log(roomNumber);
+console.log(attendeeName);
+console.log(`Welcome ${attendeeName} to ${eventName}`);
+console.log("Welcome " + attendeeName + " to " + eventName + "");
+alert("Hi!");
 
 
 // ── Challenge 2: Personalized Greetings ─────────────────────
